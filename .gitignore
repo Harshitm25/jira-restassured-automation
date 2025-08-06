@@ -1,0 +1,22 @@
+# Ignore secrets file
+src/main/resources/secrets.properties
+
+# Ignore compiled classes and build artifacts
+target/
+*.class
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API Automation Suite" parallel="methods" thread-count="3">
+    <test name="API Tests">
+        <classes>
+            <class name="com.api.automation.tests.UserApiTests"/>
+            <class name="com.api.automation.tests.PostApiTests"/>
+        </classes>
+    </test>
+</suite> 
