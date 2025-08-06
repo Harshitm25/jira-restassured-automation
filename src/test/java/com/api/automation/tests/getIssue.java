@@ -16,10 +16,10 @@ public class getIssue {
         .header("Accept","application/json")
         .header("Authorization", authToken)
         .when()
-        .get("rest/api/3/issue/10059")
+        .get("rest/api/3/issue/ISSUE_ID")
         .then()
         .statusCode(200)
-        .assertThat().body("id",equalTo("10059"))
+        .assertThat().body("id",equalTo("Issue_ID"))
         .log().all();
     }
 }
