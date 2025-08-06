@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Jira API Automation Framework
 
 This project provides a robust framework for automating Jira API testing using Java, RestAssured, and TestNG. It demonstrates best practices in configuration management, secure credential handling, and modular test design.
@@ -110,3 +111,7 @@ flowchart TD
 
 ## 📄 License
 [Add your license here]
+=======
+# jira-restassured-automation
+Automated Jira Bug creation using rest assured java based framework 
+>>>>>>> 13cfde9747628d6f461938059a6e27ec923352f8
